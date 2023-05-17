@@ -1,0 +1,22 @@
+* {
+    background-color: antiquewhite;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.recipes {
+    list-style-type: none;
+}
+
+/* Select every a element with an li parent within the recipes class */
+.recipes > li > a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 30px;
+}
+
+.recipes > li > a:hover {
+    color: #ff45ff;
+}
